@@ -19,6 +19,7 @@ public class SandwichShop {
         System.out.println("2." + size2);
         System.out.print("Enter your choice: ");
         int option = read.nextInt();
+
         // Age verification
         System.out.println("How old are you?");
         int age = read.nextInt();
@@ -45,6 +46,7 @@ public class SandwichShop {
         System.out.println("Would you like it loaded? (yes/no)");
         System.out.println("Medium: +$1");
         System.out.println("Large: +$1.75");
+
         String loadedChoice = read.next();
         if (loadedChoice.equalsIgnoreCase("yes")){
             System.out.println("Yes, I want it loaded!");
